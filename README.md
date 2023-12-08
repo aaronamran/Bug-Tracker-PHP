@@ -17,6 +17,7 @@ This is a full-stack bug tracker software using PHP, HTML and CSS and few lines 
 - Admins have access to extra features, such as:
   - Adding normal users as other admins and deleting entire profiles of other users from the database.
   - Being able to open or close a submitted bug, or delete the entire submitted bug.
+- Has a log out feature which redirects user to the home page (index.php) after successfully logging out. 
 
 ## Usage
 
@@ -25,6 +26,10 @@ To use this bug tracking software, follow these steps:
 1. Sign up by creating a new user account.
 2. Once you are successfully logged in, you can report a bug with required details.
 3. Reported bugs will appear in the 'Bug List' page in the table provided.
+
+Default admin login information:
+- username: admin
+- password: admin123
 
 ## Creation
 
