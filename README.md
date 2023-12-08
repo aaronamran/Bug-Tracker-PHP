@@ -6,7 +6,7 @@ This is a full-stack bug tracker software using PHP, HTML and CSS and few lines 
 - [Features](#features)
 - [Usage](#usage)
 - [Creation](#creation)
-- [PHP Code](#phpcode)
+- [PHP Code](#php-code)
 - [Contributing](#contributing)
 - [License](#license)
 
