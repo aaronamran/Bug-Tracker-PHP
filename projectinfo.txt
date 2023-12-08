@@ -1,0 +1,51 @@
+Idea of this project:
+- Bug tracking system
+- Two separate CRUD
+- First CRUD is for user signing up and logging in 
+- Second CRUD is for bug reports
+- Admin can delete reported bugs from list of current bugs
+- Users (non-admin) can only report or view bugs, but cannot delete bug reports
+
+
+Challenges faced in this project:
+- Adapting to PHP syntaxes (only learnt JavaScript, HTML, CSS and Python, directly jumped into PHP projects with SQL)
+- Implementing double CRUD (first time learning CRUD, especially in PHP)
+- Determining which user is admin or normal users
+- Choosing a suitable color theme and CSS-related stuffs (I am not a professional in design)
+- Wanting to access PHP files in separate folder, but ending up using htdocs folder in XAMPP
+- CSS problems with index.php, size inconsistencies with other webpages
+- Browser output differences between Chrome and FireFox
+
+
+What I have learned in this project:
+- Backticks are for tables and columns in SQL commands
+- Validate and sanitize input (refer to create.php)
+- PHP code can be used within HTML scope by using the <?php ... ?> tag
+- Importance of planning how webpages interact with each other
+- Use a separate config.php file which can be included in rest of PHP files
+- Use separate files for CRUD operations
+- Organise files into separate folders
+- Can insert image as background using <body background="image path here">
+- To force entire webpage to not be vertically scrollable, have to set the following in CSS:
+    html, body {
+        overflow: hidden;
+        margin: 0; /* Resetting default margin for body */
+        padding: 0; /* Resetting default padding for body */
+        height: 100%;
+    }
+- Use form element with specified method to deal with database: <form action="" method="post"> .. rest of code here .. </form>
+- Different browsers (Chrome, FireFox) have differences in rendering
+- Add normalize.css as a second css file to solve rendering differences
+- Use target="_blank" in <a> links to make clicked links appear as new tab
+- Keep an eye out of replacing label elements with p elements if node interactions are not required
+- Identify autocomplete of elements in form filling
+- Calling var_dump in php causes quirks mode, presence of output before the doctype declaration was likely causing the browser to enter quirks mode.
+- Use input type="text" for emails to make the input field standardised with others, use input type="email" specifically for emails
+- Keep an eye out of name="submit" attribute in the HTML submimt button. If button has no name, php cannot reference it for it to work
+- If code has separated php sections, session_start() will always be at the very top of the first php section
+- Concatenate php with string using period dot ( . ) (In JavaScript it is + )
+- Use isset() to for condition checking
+- <br> is for new lines, there is no tab equivalent, so use &nbsp
+- Use boolean logic to differntiate between admin or non-admin
+- Separate the php files for handling algorithms, such as delete button is linked to deleteusers.php
+
